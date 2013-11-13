@@ -1,0 +1,89 @@
+body {
+    background-image: url('images/background.jpg');
+}
+
+html, body {
+    height: 80%;
+    width: 80%;
+    margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+    height: 300px;
+    width: 700px;
+	padding-top: 15%;
+	margin-left: 17%;
+}
+
+#today, #tomorrow {
+	float: left;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 15px;
+    height: 200px;
+    width: 240px;
+    opacity: 0.5;
+    background-color: white;
+	text-align: center;
+	margin: 20px;
+}
+
+#map-canvas {
+    border-style:solid;
+    border-color: white;
+    border-width:5px;
+    border-radius: 15px;
+    height: 250px;
+    width: 580px;
+	margin: 50px;
+	margin-left: 17%;
+	margin-top: -15%;
+}
+
+#panel {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -190px;
+    width: 350px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+}
+      
+#latlng {
+    width: 225px;
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Calibri;
+    color: #31424b;
+    text-shadow: 2px 2px 6px #557281;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: -7%;
+}
+
+p {
+    font-family: Calibri;
+    font-size: 23px;
+    color: #31424b;
+}
+
+p.status {
+    font-size: 18px;   
+    margin-top: -20%;
+}
+
+canvas {
+    width: 130px;
+    height: 64px;
+    margin-top: -8%;
+}
