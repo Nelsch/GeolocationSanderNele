@@ -55,11 +55,6 @@ html, body {
     padding: 5px;
     border: 1px solid #999;
 }
-      
-#latlng {
-    width: 225px;
-    display: none;
-}
 
 h1 {
     text-align: center;
