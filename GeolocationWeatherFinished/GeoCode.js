@@ -12,11 +12,8 @@
 		{
             geocoder = new google.maps.Geocoder();
 			getLocation(); //zodra locatie bekend is, wordt de map initialized met de juiste coordinaten.
-			
         }
 
-        
-		
 		function getLocation() //vertaalt ip-adres naar latitude - longitude
 			{
 				if (navigator.geolocation)
@@ -28,8 +25,6 @@
 			
 		function showPosition(position) //gebruikt latitude - longitude om een nieuwe map te initializeren
 			{
-				var strCoords = position.coords.latitude + "," + position.coords.longitude;
-
 				LatVal = parseFloat(position.coords.latitude);
 				LongVal = parseFloat(position.coords.longitude);
 				
