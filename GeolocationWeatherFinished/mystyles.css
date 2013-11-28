@@ -54,7 +54,7 @@ h1 {
     text-shadow: 2px 2px 6px #557281;
     font-size: 30px;
     margin-top: 3%;
-    margin-bottom: -7%;
+    margin-bottom: -3%;
 }
 
 p {
@@ -65,7 +65,7 @@ p {
 
 p.status {
     font-size: 18px;   
-    margin-top: -21%;
+    margin-top: -15%;
 }
 
 p.statustomorrow {
@@ -76,7 +76,7 @@ p.statustomorrow {
 p.minmax {
 	font-size: 20px;
 	font-style: italic;
-	margin-top: -3%;
+	margin-top: -10%;
 	margin-bottom: 14%;
 }
 
