@@ -20,7 +20,9 @@ Boven deze kaart staan twee kaders waarin het weer voor vandaag en morgen getoon
 ###HTML
 
 De HTML-code van dit project bestaat uit 2 div's voor het weer voor vandaag en voor morgen, 1 div waarin de 2 voorgenoemde div's in zitten en een div waarin de kaart geladen wordt.	
-De div's voor het weer voor vandaag en morgen bestaan elk uit een h1-kop waarin de titel staat, een p-element die de temperaturen bevat en een canvas waarin de weericoontjes getoond worden.
+De div's voor het weer voor vandaag en morgen bestaan elk uit een h1-kop waarin de titel staat, een p-element die de temperaturen bevat en een canvas waarin de weericoontjes getoond worden.  
+Er staan ook 4 links naar scripts. Eentje naar het script `Geocode.js`, waarin al onze Javascript-code zit. Een tweede naar `jquery-1.9.1.js`, waarin alles in verband met jQuery gestockeerd zit. Deze twee zijn locale scripts.
+Een derde verwijst naar [dit](https://rawgithub.com/darkskyapp/skycons/master/skycons.js), een online script dat de weericoontjes definieert.
 
 
 ###CSS
