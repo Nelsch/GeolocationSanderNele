@@ -1,5 +1,6 @@
 Project webdesign
 =================
+**Nele Scherrens** & **Sander Wallaert** in opdracht van [Howest](http://www.howest.be) 
 
 ###Opgave
 
@@ -52,4 +53,4 @@ Deze functie defineert de weericoontjes door middel van een `switch` statement
 ###Integratie
 Onze applicatie kan heel makkelijk geïmplementeerd worden in een bestaande website: 
 Ieder element in de HTML-code heeft een specifiek ID, waardoor de CSS-regels enkel en alleen op deze elementen toegepast worden. Deze namen zijn ook heel snel aanpasbaar (voor het geval mocht er een element al zo noemen in de bestaande HTML-code). De CSS-regels zijn ook heel snel aangepast zodat onze applicatie op een heel simpele manier geïntegreerd kan worden.  
-Het Javascript-bestand hoeft helemaal niet aangepast te worden, tenzij er in de HTML-code ID's gewijzigd zijn. Dan moet gekeken worden of het vorig ID ergens in de Javascript-code voorkwam (enkel toepasbaar op `map-canvas`, `weathertoday`, `weathertomorrow`, `icontoday` en `icontomorrow`).
+Het Javascript-bestand hoeft helemaal niet aangepast te worden, tenzij er in de HTML-code ID's gewijzigd zijn. Dan moet gekeken worden of het vorig ID ergens in de Javascript-code voorkwam (enkel toepasbaar op `map-canvas`, `weathertoday`, `weathertomorrow`, `icontoday` en `icontomorrow`).  
