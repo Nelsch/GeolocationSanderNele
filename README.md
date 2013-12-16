@@ -15,7 +15,9 @@ Dit alles in een mooi kadertje zodat het aantrekkelijk is om deze applicatie in 
 Wanneer de webpagina geladen wordt, wordt gevraagd naar de locatie. Uiteraard geven we onze browser de toestemming	
 om onze locatie te bepalen.
 De browser haalt de locatie op en geeft die op een kaart weer.	
-Boven deze kaart staan twee kaders waarin het weer voor vandaag en morgen getoond wordt.
+Boven deze kaart staan twee kaders waarin het weer voor vandaag en morgen getoond wordt.	
+![Screenshot][id]
+[id]: https://github.com/Nelsch/GeolocationSanderNele/blob/master/GeolocationWeatherFinished/images/screenshot.jpg
 
 
 ###HTML
